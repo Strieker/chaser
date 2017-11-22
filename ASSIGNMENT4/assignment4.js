@@ -1,3 +1,4 @@
+
 //1
 function countOfNegatives(numbers) {
   if (!Array.isArray(numbers)) {
@@ -394,3 +395,4 @@ QUnit.test("Random value from set chooser works", t => {
     t.ok(150 <= m[v] && m[v] <= 250, "selections roughly balanced")
   );
 });
+
